@@ -41,3 +41,50 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
+
+#about-title {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+#about-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+}
+
+#name {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+#ex-title,
+#web-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#ex-div,
+#web-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin: 3rem;
+  gap: 1rem;
+}
